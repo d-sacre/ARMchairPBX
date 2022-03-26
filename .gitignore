@@ -1,5 +1,5 @@
-create_sd-card_with_arm-arch-img.txt
-manjaro-oem-config-script_mod.sh
-manjaro-oem-config-script_mod_DEPLOY.sh
-original.sh
-/armchair-config/armchair-config
+*.txt
+*.sh
+*.xcf
+/armchair-config/*
+*.png
