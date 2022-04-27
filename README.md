@@ -1,6 +1,9 @@
 # ARMchairPBX
 A script to facilitate the installation of asterisk/FreePBX on an ARM-based SBC (focus: Raspberry Pi 3B+) running Manjaro ARM.
 
+## Current Status of the Project:  !BROKEN!, !NOT-WORKING!
+THE PROJECT IS CURRENTLY ON HOLD, SINCE THERE ARE ISSUES WITH THE AVAILABILITY OF UP-TO-DATE SOURCE FILES FOR ASTERISK/FREEPBX FOR ARM LINUX IN GENERAL AND ARCH ON ARM/MANJARO ESPECIALLY! THAT IS WHY THE SCRIPT NEEDED TO DO THE INSTALLATION DESCRIBED BELOW HAS NOT YET BE UPLOADED.
+
 ## Requirements
 1. Computer running Linux where you have root permissions.
 2. SBC which can run Manjaro ARM <br> (list of supported devices: <https://gitlab.manjaro.org/manjaro-arm/documentation/manjaro-arm-wiki/-/wikis/Device-Support>)
