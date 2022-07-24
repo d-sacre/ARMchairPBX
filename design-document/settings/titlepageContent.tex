@@ -1,0 +1,32 @@
+\def\daTitlepageTitle{}
+
+\def\daTitlepageLogo{
+	\begin{tikzpicture}
+            \node[inner sep=0, outer sep=0,anchor=west](logo) at (0,0){
+                \includegraphics[width=10cm]{docart-utility/class-master-theme/cmt-images/armchairpbx_logo_white-bg_magenta-text.pdf}
+            };
+        \end{tikzpicture}
+    	\phantom{}\\[-3cm]
+}
+
+\def\daTitlepageDescription{
+	\textcolor{armchairpbxMagenta}{
+            \large An end-user-friendly Public Broadcast Exchange (PBX)\\ %
+            running on ARM-based Single Board Computers (SBC's).
+        }
+}
+
+\def\daTitlepageAuthor{
+	\textcolor{gray}{\large Author: Daniel Sacré}\\[0.125cm]
+}
+
+\def\daTitlepageDocumentInformation{
+	\textcolor{darkgray}{\Huge -- Design Document --}\\[1cm]
+	\textcolor{gray}{\productName, \productVersion}\\
+	\textcolor{gray}{Document Revision \documentRevision}\\[0.5cm]
+}
+
+\def\daTitlepageLicense{
+	\footnotesize
+	\textcolor{gray}{License of Design Document: Public Domain}
+}

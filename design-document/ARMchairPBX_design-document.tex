@@ -1,0 +1,41 @@
+%+++Complete+++
+% !TeX program = lualatex 
+
+\documentclass{docart-utility/docart}
+
+\begin{document}
+	\daGenerateTitlepage
+	\tableofcontents
+	
+	\chapter{Definition of Scope}
+		- simple PBX functionality out-of-the-box\\
+		- extremely user friendly (must be usable by a person without technical knowledge)\\
+		- blocking of scam calls with invalid numbers/known bad numbers
+	
+	\chapter{Already Existing Alternatives}
+		- raspbx, but no longer maintained\\
+		- building from scratch
+	
+	\chapter{Requirement Analysis}
+		\section{Hardware}
+			- all SBC's, not only Raspberry Pi\\
+			- later: own ATA?
+		
+		\section{Operating System}
+			- Raspberry Pi OS: raspbx based upon, good hardware compatibility, good package manager/repos, repo version of asterisk deprecated, new compilation not working, officially only works on Raspberry Pi, no cross-compiling\\
+			-  DietPi: efficient/lightweight system, available for a lot of SBC's, nice to configure, not access to all repos, non-standard package manager, no cross-compiling\\
+			- Manjaro: available for a lot of SBC's, good package manager, good access to repos, cross-compilation via Manjaro Architect, asterisk/FreePBX not available, compilation instructions outdated, cross-compilation buggy
+		
+		\section{Software}
+			- asterisk\\
+			- FreePBX: powerful tool, but to complicated
+			- devlop own, simple solution for testing
+		
+	\chapter{Pre-Project Roadblocks}
+		
+	\chapter{Goals for Proof-of-Concept}
+	
+	\chapter{Project Timeline}
+		
+\end{document}
+%+++Complete+++

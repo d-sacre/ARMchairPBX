@@ -1,0 +1,17 @@
+%+++Complete+++
+\ihead{}
+\ohead{}
+\chead{
+	\tikz{
+		\node[inner sep=0, outer sep=0,anchor=west](logo) at (0,0){
+				\includegraphics[width=1.5cm]{docart-utility/class-master-theme/cmt-images/armchairpbx_logo_transparent_no-text.pdf}
+		};
+		\node[text=armchairpbxMagenta,anchor=west,align=center,font=\normalfont](text) at ($(logo.east)+(5em,0)$){\Large\bfseries \productName: \Large\bfseries Proof-of-Concept};
+		\node[inner sep=0, outer sep=0,anchor=west](logo2) at ($(text.east)+(5em,0)$){
+				\scalebox{-1}[1]{
+					\includegraphics[width=1.5cm]{docart-utility/class-master-theme/cmt-images/armchairpbx_logo_transparent_no-text.pdf}
+				}	
+		};
+	}
+}
+%+++Complete+++
